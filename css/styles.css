@@ -1,0 +1,69 @@
+/*Name: Avandar Villeneuve
+Student#:8933384
+*/
+body{
+    width: 100%;
+    margin: 5px;
+    font: 20px Arial;
+    padding: 10px;
+    max-width: 1250px;
+    max-height: 1500px;
+}
+.headfoot{
+    border: 5px solid black;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+}
+h1 {
+    color:blue;
+    font-variant: small-caps;
+}
+h2{
+    color:blue;
+    font-variant: small-caps;
+}
+footer p{
+    font-size: small;
+    color: red;
+}
+main{
+    float: left;
+    width: 60%; 
+    padding: 10px;
+    margin: 5px;
+}
+aside{
+    float: right;
+    width: 32%;
+    padding: 10px;
+    margin: 5px;
+}
+.mainimg{
+    border: 5px solid yellow;
+}
+section figcaption{
+    font-style: bold;
+    font-variant: small-caps;
+}
+q{
+    font-family: cursive;
+    font-style: italic;
+    font-size: larger;
+}
+ul li{
+    list-style-type: none;
+    line-height: 40px; 
+}
+ul > a{
+    text-decoration: none;
+    color:blueviolet;
+}
+a:hover{
+    color:red;
+}
+footer{
+    position:absolute;
+    bottom: 0;
+}
